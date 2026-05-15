@@ -1,16 +1,17 @@
-## Hi there 👋
+## 👋 Hi, I'm Jakub
 
-<!--
-**jakubbarak2001/jakubbarak2001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Self-taught developer from Czechia. I build web apps in Astro/TypeScript and narrative games in Ren'Py. Currently exploring the intersection of **technology and self-improvement** — both as tooling (apps that help people grow) and as narrative (games about transformation).
 
-Here are some ideas to get you started:
+### 🛠 What I'm working on
+- **[Refactor](https://github.com/jakubbarak2001/Refactor)** — a text-based game where a police officer learns to code
+- **[duskvow](https://github.com/jakubbarak2001/duskvow)** — dark fantasy AI app that turns goals into RPG talent trees
+- **[connexus](https://github.com/jakubbarak2001/connexus)** — web studio for Czech financial advisors
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧰 Tech stack
+- **Web:** Astro · TypeScript · JavaScript
+- **Backend & scripts:** Python
+- **Games:** Ren'Py
+- **Interests:** AI tooling, productivity, self-improvement
+
+### 📫 Find me
+- LinkedIn: [jakub-barak](https://www.linkedin.com/in/jakub-barak/)
