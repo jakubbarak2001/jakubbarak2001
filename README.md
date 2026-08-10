@@ -1,59 +1,44 @@
 # Jakub Barák
 
-**Python backend development for systems that need clear behavior, reliable
-data, and tests that catch real regressions.**
+Junior IT candidate focused on Python, SQL, Linux, software testing, and digital
+evidence.
 
-## Problems I can solve
+I am transitioning into IT after serving with the Police of the Czech Republic.
+During approximately two years of operational police service, I handled reports
+and investigations involving online fraud, documented electronic evidence,
+recorded SHA-256 hashes to support later integrity verification, prepared
+evidence requests for international technology and payment providers, and
+cooperated with specialised criminal investigation units.
 
-- Turn business rules into readable, testable Python and Django code.
-- Model relational data and extract useful answers with joins, aggregation,
-  subqueries, CTEs, and window functions.
-- Trace failures across HTTP, application, database, and process boundaries.
-- Replace fragile manual workflows with small, inspectable backend tools.
-- Put regression coverage around existing behavior before changing it.
-- Work below framework abstractions when they leak: Python protocols, the data
-  model, dunder methods, iterators, generators, decorators, context managers,
-  exceptions, and object semantics.
+I learn by building and testing working software. My current interests include
+backend systems, relational data, Linux, application support, software quality,
+and cybersecurity.
 
-## What you get
-
-You get someone genuinely obsessed with software: I read it, build it, test it,
-break it, and pull it apart to understand why it behaves the way it does. That
-drive does not disappear when the work becomes repetitive, confusing, or
-uncomfortable. If a problem exposes a gap in my knowledge, I close the gap and
-return to the problem.
-
-- **Ownership.** I do not stop at the first plausible fix. I reproduce the
-  failure, follow it across layers, identify the violated contract, and verify
-  the result.
-- **Persistence.** When an abstraction stops making sense, I read below it until
-  I can explain what the system is doing and why.
-- **Regression safety.** A solved problem should stay solved. I turn failures
-  into tests and leave the next change safer than the last one.
-- **Deliberate depth.** I would rather understand one system end to end than hide
-  gaps behind a larger pile of frameworks.
-- **Consistency.** I keep building through difficult, unglamorous stages: failed
-  tests, broken parsers, incorrect queries, incomplete documentation, and the
-  repeated debugging that turns isolated code into a working system.
-
-## Selected engineering work
+## Selected work
 
 ### [Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)
 
-A hand-written tokenizer, abstract syntax tree, arithmetic evaluator, and test
-suite. The current work connects those pieces through parsing and statement
-execution.
+A book-guided tree-walk interpreter with a tokenizer, recursive-descent parser,
+abstract syntax tree, and evaluator. The repository currently includes 35
+automated tests covering tokenization, parsing, AST output, evaluation, and
+invalid input.
+
+### [Insurance Advisor Website](https://marketabarakova.cz/)
+
+A production website built with Astro, JavaScript, HTML, and CSS. I gathered
+requirements, incorporated stakeholder feedback, deployed the site, and
+delivered the approved result.
 
 ### [Obey the Testing Goat](https://github.com/jakubbarak2001/goat-book)
 
-A Django application developed test-first with functional and unit tests. The
-repository exercises behavior-driven feature development, regression safety,
-and the boundary between browser-visible behavior and backend implementation.
+A work-in-progress Django learning project developed test-first with functional
+and unit tests.
 
-## Core stack
+## Technical focus
 
-`Python` · `Django` · `SQL` · `SQLite` · `unittest` · `pytest` · `Git` · `Linux`
+`Python` · `SQL` · `Django` · `PostgreSQL` · `MySQL` · `SQLite` · `pytest` ·
+`unittest` · `Selenium` · `Linux` · `Bash` · `Git`
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jakub-barak) · Czechia / remote
+[jakubbarak2001@seznam.cz](mailto:jakubbarak2001@seznam.cz) · Děčín, Czech Republic
