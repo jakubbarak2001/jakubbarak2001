@@ -1,35 +1,32 @@
-# I build the backend.
+# Hi, I'm Jakub
 
-### Python. PostgreSQL. Linux.
+I'm a self-taught learner, mostly interested in backend development. I'm curious about Python, Flask, Django, databases, Linux, and testing, and I like understanding how things work underneath.
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffd343)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=80c7ff)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=c8f08d)
-
-I turn ideas into working Python applications: the logic, the data, and the tests behind the screen. I care about understanding every step — from an incoming request to the query and the response.
+I learn by building projects and working through the parts I don't understand yet. I'd also like to explore virtualization and the systems that run applications.
 
 ## Country Battle Royale
 
-**Two countries. One prediction. Keep the streak alive.**
-
-A Flask game I'm building around real country data. Pick the winner on population and area, call a draw, and keep your streak alive.
+A Flask game I'm building with real country data: compare population and area, make a prediction, and try to keep a winning streak going.
 
 <a href="https://github.com/jakubbarak2001/CountryBattleRoyale">
-  <img src="https://raw.githubusercontent.com/jakubbarak2001/CountryBattleRoyale/main/docs/images/gameplay.png" alt="Country Battle Royale: Philippines versus Kuwait, with country cards and prediction buttons" width="840">
+  <img src="https://raw.githubusercontent.com/jakubbarak2001/CountryBattleRoyale/main/docs/images/gameplay.png" alt="Country Battle Royale: country cards and prediction buttons" width="840">
 </a>
 
-**What I've implemented:**
+Some of the things I'm working with here:
 
-- **Python + Flask:** game logic, routes, Jinja templates, and session-based streaks.
-- **PostgreSQL:** registration, login, and logout; parameterized queries and Argon2 password hashing.
-- **REST API + JSON cache:** paginated country data, timeouts, HTTP error checks, and a seven-day cache.
-- **Tests:** game logic and authentication routes, using mocks for database calls.
+- Flask routes, Jinja templates, and sessions.
+- PostgreSQL account registration and login.
+- REST API data and a local JSON cache.
+- Tests for game logic and authentication routes, with mocked database calls.
 
-**[Explore the code →](https://github.com/jakubbarak2001/CountryBattleRoyale)**
+[Repository](https://github.com/jakubbarak2001/CountryBattleRoyale)
 
-## From source code to execution
+## Other projects
 
-**[Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)** — a book-guided interpreter with a tokenizer, recursive-descent parser, AST, and expression evaluator. Automated tests run in GitHub Actions.
+### [REFACTOR — 2D version](https://github.com/jakubbarak2001/Refactor/tree/master/REFACTOR)
 
-**Focus:** backend development, relational data, and automated testing. Studying computer science.
+A deckbuilding game built with Ren'Py and Python. It brings together turn-based card battles, daily choices, shops, achievements, and character progression.
+
+### [Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)
+
+A book-guided interpreter with a tokenizer, recursive-descent parser, AST, and expression evaluator. Automated tests run in GitHub Actions.
