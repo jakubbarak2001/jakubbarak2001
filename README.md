@@ -1,44 +1,44 @@
 # Jakub Barák
 
-Junior IT candidate focused on Python, SQL, Linux, software testing, and digital
-evidence.
+### Python backend developer. Linux daily driver.
 
-I am transitioning into IT after serving with the Police of the Czech Republic.
-During approximately two years of operational police service, I handled reports
-and investigations involving online fraud, documented electronic evidence,
-recorded SHA-256 hashes to support later integrity verification, prepared
-evidence requests for international technology and payment providers, and
-cooperated with specialised criminal investigation units.
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffd343)
+![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=80c7ff)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=c8f08d)
 
-I learn by building and testing working software. My current interests include
-backend systems, relational data, Linux, application support, software quality,
-and cybersecurity.
+I like knowing what happens underneath: how a request becomes a response, how data moves through a system, and why something breaks. I learn by writing the code and working through those questions.
 
-## Selected work
+## Main project — Country Battle Royale
 
-### [Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)
+**Two countries. One prediction. Keep the streak alive.**
 
-A book-guided tree-walk interpreter with a tokenizer, recursive-descent parser,
-abstract syntax tree, and evaluator. The repository currently includes 35
-automated tests covering tokenization, parsing, AST output, evaluation, and
-invalid input.
+My Flask game turns real country data into head-to-head matchups. Pick the winner on population and area, or call a draw.
 
-### [Insurance Advisor Website](https://marketabarakova.cz/)
+<a href="https://github.com/jakubbarak2001/CountryBattleRoyale">
+  <img src="https://raw.githubusercontent.com/jakubbarak2001/CountryBattleRoyale/main/docs/images/gameplay.png" alt="Country Battle Royale: Philippines versus Kuwait, with country cards and prediction buttons" width="840">
+</a>
 
-A production website built with Astro, JavaScript, HTML, and CSS. I gathered
-requirements, incorporated stakeholder feedback, deployed the site, and
-delivered the approved result.
+**Under the hood:**
 
-### [Obey the Testing Goat](https://github.com/jakubbarak2001/goat-book)
+- **Python + Flask:** game logic, routes, Jinja templates, and session-based streaks.
+- **PostgreSQL:** registration, login, and logout; parameterized queries and Argon2 password hashing.
+- **REST API + JSON cache:** paginated country data, timeouts, HTTP error checks, and a seven-day cache.
+- **Tests:** game logic and authentication routes, using mocks for database calls.
 
-A work-in-progress Django learning project developed test-first with functional
-and unit tests.
+**[Explore the code →](https://github.com/jakubbarak2001/CountryBattleRoyale)** · Actively building and improving it.
 
-## Technical focus
+## Other things I've built
 
-`Python` · `SQL` · `Django` · `PostgreSQL` · `MySQL` · `SQLite` · `pytest` ·
-`unittest` · `Selenium` · `Linux` · `Bash` · `Git`
+| Project | What's inside |
+| :--- | :--- |
+| **[Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)** | A book-guided interpreter: tokenizer, recursive-descent parser, AST, and expression evaluator. Automated tests run in GitHub Actions. |
+| **[Insurance advisor website](https://marketabarakova.cz/)** | An Astro website delivered from requirements and client feedback through deployment. JavaScript, HTML, and CSS. |
 
-## Contact
+## What I'm working towards
 
-[jakubbarak2001@seznam.cz](mailto:jakubbarak2001@seznam.cz) · Děčín, Czech Republic
+Backend development, relational data, and software I can understand all the way down. I'm studying **Applied Informatics at UJEP** alongside my projects, in a combined bachelor's programme.
+
+Before software, I served with the **Police of the Czech Republic**, investigating online fraud and documenting evidence. Following a problem through and taking responsibility for the details are familiar territory.
+
+**Děčín** · **[jakubbarak2001@seznam.cz](mailto:jakubbarak2001@seznam.cz)**
