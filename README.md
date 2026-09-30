@@ -1,44 +1,35 @@
-# Jakub Barák
+# I build the backend.
 
-### Python backend developer. Linux daily driver.
+### Python. PostgreSQL. Linux.
 
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffd343)
 ![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=80c7ff)
 ![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=c8f08d)
 
-I like knowing what happens underneath: how a request becomes a response, how data moves through a system, and why something breaks. I learn by writing the code and working through those questions.
+I turn ideas into working Python applications: the logic, the data, and the tests behind the screen. I care about understanding every step — from an incoming request to the query and the response.
 
-## Main project — Country Battle Royale
+## Country Battle Royale
 
 **Two countries. One prediction. Keep the streak alive.**
 
-My Flask game turns real country data into head-to-head matchups. Pick the winner on population and area, or call a draw.
+A Flask game I'm building around real country data. Pick the winner on population and area, call a draw, and keep your streak alive.
 
 <a href="https://github.com/jakubbarak2001/CountryBattleRoyale">
   <img src="https://raw.githubusercontent.com/jakubbarak2001/CountryBattleRoyale/main/docs/images/gameplay.png" alt="Country Battle Royale: Philippines versus Kuwait, with country cards and prediction buttons" width="840">
 </a>
 
-**Under the hood:**
+**What I've implemented:**
 
 - **Python + Flask:** game logic, routes, Jinja templates, and session-based streaks.
 - **PostgreSQL:** registration, login, and logout; parameterized queries and Argon2 password hashing.
 - **REST API + JSON cache:** paginated country data, timeouts, HTTP error checks, and a seven-day cache.
 - **Tests:** game logic and authentication routes, using mocks for database calls.
 
-**[Explore the code →](https://github.com/jakubbarak2001/CountryBattleRoyale)** · Actively building and improving it.
+**[Explore the code →](https://github.com/jakubbarak2001/CountryBattleRoyale)**
 
-## Other things I've built
+## From source code to execution
 
-| Project | What's inside |
-| :--- | :--- |
-| **[Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)** | A book-guided interpreter: tokenizer, recursive-descent parser, AST, and expression evaluator. Automated tests run in GitHub Actions. |
-| **[Insurance advisor website](https://marketabarakova.cz/)** | An Astro website delivered from requirements and client feedback through deployment. JavaScript, HTML, and CSS. |
+**[Crafting Interpreters in Python](https://github.com/jakubbarak2001/Crafting-Interpreters-Python)** — a book-guided interpreter with a tokenizer, recursive-descent parser, AST, and expression evaluator. Automated tests run in GitHub Actions.
 
-## What I'm working towards
-
-Backend development, relational data, and software I can understand all the way down. I'm studying **Applied Informatics at UJEP** alongside my projects, in a combined bachelor's programme.
-
-Before software, I served with the **Police of the Czech Republic**, investigating online fraud and documenting evidence. Following a problem through and taking responsibility for the details are familiar territory.
-
-**Děčín** · **[jakubbarak2001@seznam.cz](mailto:jakubbarak2001@seznam.cz)**
+**Focus:** backend development, relational data, and automated testing. Studying computer science.
